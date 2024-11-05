@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=PT+Sans&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #5175AD;
+    font-family: "PT Sans", sans-serif;
+}
+
+.main_header{
+    width: 80%;
+    height: 100%;
+    background-color: #39547f;
+    color: #DAEAFF;
+    font-family: 'PT Sans', sans-serif;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;   
+}
+
+h1 {
+    margin: 0;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#DAEAFF;    
+}
+
+.menu_main {
+    font-size: 24px;
+    margin: 0;
+    padding: auto;
+}
+
+.main_content {
+    width: 80%;
+    height: 1500px;
+    background-color: #466494;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+p {
+    font-size: 20px;
+    color: #DAEAFF;
+    margin: 0;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+
+.main_content>p {
+    font-size: 20px;
+    color: #DAEAFF;
+    margin-right: 20px;
+    padding-top: 50px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+table {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    color: #DAEAFF;
+    background-color: #5175AD;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: auto;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td {
+    width: 250px;
+    color: #DAEAFF;
+    border: 2px solid #2e4468;
+    background-color: #5175AD;
+}
+
+table th:nth-child(2), 
+table td:nth-child(2) { 
+    width: 500px;
+}
+
+.main_text {
+    display: flex;
+}
+
+
+img {
+    margin: 30px;
+}
